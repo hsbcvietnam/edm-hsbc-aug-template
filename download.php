@@ -1,7 +1,7 @@
 <?php
 
 $zip = new ZipArchive;
-if ($zip->open('source-edm.zip', ZipArchive::CREATE) === TRUE)
+if ($zip->open('source.zip', ZipArchive::CREATE) === TRUE)
 {
 
     // Add folder source - edm
